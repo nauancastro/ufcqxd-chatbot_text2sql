@@ -136,7 +136,7 @@ Python · CrewAI · Flask · psycopg2 · Supabase (PostgreSQL) · Evolution API 
 ## Sobre a pesquisa
 
 Este código foi desenvolvido como parte de um Trabalho de Conclusão de Curso
-em Engenharia de Computação pela Universidade Federal do Ceará, apresentado em
+em Sistemas de Informação pela Universidade Federal do Ceará, apresentado em
 julho de 2026. Para o framework de avaliação Text-to-SQL, o dataset de teste,
 os relatórios comparativos entre modelos de linguagem e o texto completo da
 monografia, consulte:
