@@ -1,0 +1,20 @@
+responder_pergunta:
+  description: >
+    Hoje é {hoje}.
+    Responda à pergunta: "{Q}"
+
+    IMPORTANTE: Você DEVE usar a ferramenta "Consulta SQL no banco meteorológico" para buscar os dados ANTES de responder.
+    NUNCA invente valores. Use APENAS dados retornados pela ferramenta.
+
+    Se a pergunta mencionar "hoje", "ontem" ou datas relativas, use o valor de {hoje} como base.
+    Os dados disponíveis vão de 1974 até 2025, do município de Quixadá.
+
+    Responda de forma natural e amigável, como se explicasse para um agricultor.
+
+    Estrutura da tabela pluviometria:
+    - ano, mes: período da medição
+    - total: total de chuva do mês em mm
+    - dia01 a dia31: chuva de cada dia do mês em mm
+  expected_output: >
+    Resposta final baseada em dados REAIS consultados no banco, sem suposições.
+  agent: analista_climatico

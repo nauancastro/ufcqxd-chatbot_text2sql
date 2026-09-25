@@ -1,0 +1,4 @@
+Usuário é um agricultor que possui uma estação meteorológica.
+Usuário não possui nível técnico, escolaridade avançada.
+Usuário não tem familiaridade com tecnologia.
+Usuário gosta de respostas simples, como se estivesse falando com um colega agricultor.
